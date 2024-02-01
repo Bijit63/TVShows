@@ -102,3 +102,195 @@ top: -4vw;
     font-size: 1.1vw;
     text-align: center;
 }
+
+
+@media only screen and (min-width: 650px) and (max-width: 1023px) {
+    .ShowAll h1{
+        margin: 3vw;
+        font-size: 6vw;
+    
+    
+    }
+
+    .Shows-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        column-gap: 4.6vw;
+        row-gap: 3vw;
+        max-width: 90vw;
+    }
+
+
+    .show-box{
+        max-width: 19vw;
+        min-width: 19vw;
+        max-height: 26vw;
+        min-height: 26vw;
+        cursor: pointer;
+        border-radius: 4px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0px 0px 3px rgb(172, 172, 172);
+    }
+    
+    .show-box img{
+        max-width: 19vw;
+        min-width: 19vw;
+        max-height: 26vw;
+        min-height: 26vw;
+    }
+    .button{
+    
+        color: white;
+        font-size: 2vw;
+        border-radius: 6px;
+        text-align: center;
+        background-color: #424769;
+        height: fit-content;
+        padding: 0.25vw 0.7vw;
+        box-shadow: 0px 0px 3px rgba(255, 255, 255, 0.306);
+        text-decoration: none;
+    }
+    .lower-box {
+        position: absolute;
+        left: 0;
+    bottom: -4vw;
+        min-width: 100%;
+        min-height: 4vw;
+        max-height: 4vw;
+        opacity: 0;
+        transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .show-box:hover .lower-box {
+        opacity: 1;
+        transform: translateY(-100%);    
+    }
+
+    .upper-box {
+        position: absolute;
+        left: 0;
+    top: -4vw;
+        min-width: 100%;
+        min-height: 3.5vw;
+        max-height: 3.5vw;
+        background-color: #0c0c0cdf;
+        opacity: 0;
+        transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+        box-shadow: 0px 1px 2px rgba(255, 255, 255, 0.306);
+    }
+    
+    
+    .show-box:hover .upper-box {
+        opacity: 1;
+        transform: translateY(100%);    
+    }
+    
+    .upper-box p{
+        margin-top: 0.4vw;
+        color: white;
+        font-size: 2vw;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (min-width: 0px) and (max-width: 649px) {
+    .ShowAll h1{
+        margin: 3vw;
+        font-size: 6vw;
+    
+    
+    }
+
+    .Shows-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 8vw;
+        row-gap: 6vw;
+        max-width: 90vw;
+        margin-bottom: 10vw;
+    }
+
+
+    .show-box{
+        max-width: 35vw;
+        min-width: 35vw;
+        max-height: 43vw;
+        min-height: 43vw;
+        cursor: pointer;
+        border-radius: 4px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0px 0px 3px rgb(172, 172, 172);
+    }
+    
+    .show-box img{
+        max-width: 35vw;
+        min-width: 35vw;
+        max-height: 43vw;
+        min-height: 43vw;
+    }
+    .button{
+    
+        color: white;
+        font-size: 3.6vw;
+        border-radius: 6px;
+        text-align: center;
+        background-color: #424769;
+        height: fit-content;
+        padding: 0.25vw 0.7vw;
+        box-shadow: 0px 0px 3px rgba(255, 255, 255, 0.306);
+        text-decoration: none;
+    }
+    .lower-box {
+        position: absolute;
+        left: 0;
+    bottom: -4vw;
+        min-width: 100%;
+        min-height: 4vw;
+        max-height: 4vw;
+        opacity: 0;
+        transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .show-box:hover .lower-box {
+        opacity: 1;
+        transform: translateY(-190%);    
+    }
+
+    .upper-box {
+        position: absolute;
+        left: 0;
+    top: -4vw;
+        min-width: 100%;
+        min-height: 6.6vw;
+        max-height: 6.6vw;
+        background-color: #0c0c0cdf;
+        opacity: 0;
+        transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+        box-shadow: 0px 1px 2px rgba(255, 255, 255, 0.306);
+    }
+    
+    
+    .show-box:hover .upper-box {
+        opacity: 1;
+        transform: translateY(50%);    
+    }
+    
+    .upper-box p{
+        margin-top: 0.6vw;
+        color: white;
+        font-size: 4vw;
+        text-align: center;
+    }
+    
+}
