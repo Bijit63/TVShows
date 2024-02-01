@@ -107,6 +107,16 @@
 
   @media only screen and (min-width: 0px) and (max-width: 649px) {
 
+    .show-details-container{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin:10vw 0;
+  }
+
+  
     .show-details {
       display: flex;
       flex-direction: column;
